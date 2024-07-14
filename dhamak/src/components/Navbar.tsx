@@ -20,10 +20,10 @@ function Navbar({ className }: { className?: string }) {
 
 {/*Logo yha khtm hua hai*/}
             
-            <div className={cn("flex flex-row items-center content-end space-x-4 ml-", className)}>
+            <div className={cn("flex flex-row items-center content-end space-x-6 ml-", className)}>
                 <Menu setActive={setActive}>
                     <Link href={"/"}>
-                        <MenuItem setActive={setActive} active={active} item="Home">
+                        <MenuItem setActive={setActive} active={active} item="Home" >
                         </MenuItem>
                     </Link>
                     <MenuItem setActive={setActive} active={active} item="Our Courses">

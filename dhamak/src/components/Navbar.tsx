@@ -10,7 +10,7 @@ import logo from './logo.png'
 function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
     return (
-        <div className="flex flex-row items-center justify-between p-3 ">
+        <div className="flex flex-row items-center justify-between p-1 ">
             <div className="flex flex-col items-center pl-7">
                 <div style={{ width: '100px', marginTop: '15px' }}>
                     <Image src={logo} alt="Logo" className="navbar-logo" />
